@@ -33,8 +33,8 @@ GET Reqest of API  '/?num=18' --> The router should return {"num": "20","isOdd":
     //num in data should be replaced by (num query + 2) from the get request route
     //isOdd in data should be replaced by whether (num query + 2) is odd or even if it odd make it true else false 
   //  const data = {
-        "num" : "20",
-        "isOdd" : false
+      //  "num" : "20",
+      //  "isOdd" : false
    // };
   //  res.send(JSON.stringify(data));
 //});
